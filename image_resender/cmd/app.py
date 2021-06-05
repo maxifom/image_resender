@@ -8,7 +8,6 @@ from typing import Any, Dict
 import aiohttp
 from aiohttp import FormData
 
-from image_resender.conf import *
 from image_resender.vk_api import get_photo_url, NeedNewServerException, VKClient
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")

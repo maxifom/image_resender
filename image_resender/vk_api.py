@@ -5,8 +5,6 @@ from typing import Union
 import aiohttp
 from ratelimit import limits
 
-from image_resender.conf import API_VERSION
-
 import random
 
 logger = logging.getLogger(__name__)
